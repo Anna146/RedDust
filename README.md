@@ -20,3 +20,9 @@ For each attribute use
 `-mapper mapper_<att_name>.py - reducer joint_reducer.py`
 
 Reducer is the same for all. For further details about the patterns refer to the pdf of the paper
+
+Then use code from
+
+https://github.com/Anna146/HiddenAttributeModels/tree/master/prepare_data/hadoop
+
+to fetch the bodies of the messages instead of their ids.
